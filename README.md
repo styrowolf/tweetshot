@@ -4,7 +4,7 @@ tweetshot is a command line tool to take screenshots of tweets automatically.
 
 ## Installation
 
-Use the package manager [homewbrew](https://brew.sh/) to install chromedriver first.
+Use the package manager [homebrew](https://brew.sh/) to install chromedriver first.
 
 ```bash
 brew install --cask chromedriver
