@@ -22,10 +22,10 @@ FLAGS:
 OPTIONS:
   -o, --output PATH         Sets an output path
   -u, --username USERNAME   Uses USERNAME for login [default: {}]
-  -p, --password PASSWORD   Uses PASSWORD for login [default: {}]
+  -p, --password PASSWORD   Uses PASSWORD for login [default: REDACTED]
 ARGS:
-  <LINK(S)>                 Comma-seperated tweet links
-", credentials::USERNAME, credentials::PASSWORD);
+  <LINK(S)>                 Comma-seperated tweet links or path to file with links
+", credentials::USERNAME);
 
 #[derive(Debug)]
 pub struct AppArgs {
