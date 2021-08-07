@@ -15,7 +15,7 @@ const HELP: &str = formatc!("\
 tweetshot
 
 USAGE:
-  tweetshot [OPTIONS] [LINK(S)]
+  tweetshot [OPTIONS] [LINK(S)] [FLAGS]
 FLAGS:
   -h, --help                Prints help information
   -l, --login               Logs in to Twitter
